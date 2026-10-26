@@ -31,12 +31,12 @@ public class Main {
 			ProductRead productRead = new ProductRead();
 			productRead.ReadProduct();
 		break;
-//			
-//		case 3:
-//			ProductDelete productDelete = new ProductDelete();
-//			productDelete.DeleteProduct();
-//			break;
-//			
+			
+		case 3:
+			ProductDelete productDelete = new ProductDelete();
+			productDelete.DeleteProduct();
+			break;
+			
 //		case 4:
 //			ProductUpdate productUpdate = new ProductUpdate();
 //			productUpdate.UpdateProduct();
