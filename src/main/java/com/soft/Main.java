@@ -37,11 +37,11 @@ public class Main {
 			productDelete.DeleteProduct();
 			break;
 			
-//		case 4:
-//			ProductUpdate productUpdate = new ProductUpdate();
-//			productUpdate.UpdateProduct();
-//			break;
-//			
+		case 4:
+			ProductUpdate productUpdate = new ProductUpdate();
+			productUpdate.UpdateProduct();
+			break;
+			
 		case 5:
 		System.out.println("Thanks for visiting the Product Application");
 			
