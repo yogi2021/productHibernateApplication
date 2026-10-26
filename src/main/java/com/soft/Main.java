@@ -23,29 +23,29 @@ public class Main {
 		
 		switch(choice) {
 		case 1:
-			ProductAdd ProductAdd = new ProductAdd();
-			ProductAdd.AddProduct();
+			ProductAdd productAdd = new ProductAdd();
+			productAdd.AddProduct();
 			break;
 			
-		case 2:
-			ProductRead ProductRead = new ProductRead();
-			ProductRead.ReadProduct();
-			break;
-			
-		case 3:
-			ProductDelete ProductDelete = new ProductDelete();
-			ProductDelete.DeleteProduct();
-			break;
-			
-		case 4:
-			ProductUpdate ProductUpdate = new ProductUpdate();
-			ProductUpdate.UpdateProduct();
-			break;
-			
+//		case 2:
+//			ProductRead productRead = new ProductRead();
+//			productRead.ReadProduct();
+//		break;
+//			
+//		case 3:
+//			ProductDelete productDelete = new ProductDelete();
+//			productDelete.DeleteProduct();
+//			break;
+//			
+//		case 4:
+//			ProductUpdate productUpdate = new ProductUpdate();
+//			productUpdate.UpdateProduct();
+//			break;
+//			
 		case 5:
-			System.out.println("Thanks for visiting the Product Application");
-			isvalue=false;
-			break;
+		System.out.println("Thanks for visiting the Product Application");
+			
+ 	break;
 			
 		default:
 			System.out.println("Enter Correct Choice..");
