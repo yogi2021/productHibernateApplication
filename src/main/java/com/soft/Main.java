@@ -27,10 +27,10 @@ public class Main {
 			productAdd.AddProduct();
 			break;
 			
-//		case 2:
-//			ProductRead productRead = new ProductRead();
-//			productRead.ReadProduct();
-//		break;
+		case 2:
+			ProductRead productRead = new ProductRead();
+			productRead.ReadProduct();
+		break;
 //			
 //		case 3:
 //			ProductDelete productDelete = new ProductDelete();
