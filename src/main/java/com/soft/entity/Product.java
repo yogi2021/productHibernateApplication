@@ -37,7 +37,15 @@ public class Product {
 	return prize;
   }
   public void setPrize(float prize) {
+	  
 	this.prize = prize;
+  }
+  @Override
+  public String toString() {
+	return "Product [productId=" + productId + ", productName=" + productName + ", companyName=" + companyName
+			+ ", prize=" + prize + ", getProductId()=" + getProductId() + ", getProductName()=" + getProductName()
+			+ ", getCompanyName()=" + getCompanyName() + ", getPrize()=" + getPrize() 
+			+  "]";
   }
   
   

@@ -30,6 +30,7 @@ public class ProductRead {
 		}
 		
 		
+		
 	
 		session.close();
 		factory.close();
